@@ -1,0 +1,55 @@
+Mubarak Adem
+Software Developer
+mubarak.adem@a2sv.org
+ 
++251909230572
+ 
+Adama,Ethiopia
+ 
+MubarakAdem
+ 
+MubarakAdem
+ 
+Mubarakadem
+ 
+Profile
+•Ambitious and self-taught software developer.recognized as a top student for exceptional problem-solving and 
+web development skills. Passionate about leveraging diverse technologies to create innovative solutions and drive 
+impactful change in the tech industry
+Education
+2022 – present
+Adama, Ethiopia
+Bsc.in Computer Science And Engineering
+Adama Science and Technology University
+•Relevant Courseworks:Fundamentals of Programming,Data Structures and 
+Algorithms,Object Oriented-Programming,SoftwareEngineering,Database Systems and 
+Advanced Programming.
+2023 – present
+Adama, Ethiopia
+Data Structures and Algorithms
+ASV - African to silican Valley Coding Academy
+• A2SV upskills talented African students and connects them with big tech companies. 
+A2SV has successfully placed 50+ trainees at top tech companies  including 
+Databricks, Google, Amazon,Bloomberg, Palantir,and Block.
+Professional Experience
+Adama, EthiopiaSoftware Enigneer
+Eskalate
+•Developed and maintained a comprehensive banking statistics dashboard as part of a 
+team of six students. Leveraged Next.js, Tailwind CSS, React Toolkit, and NextAuth to 
+create a seamless, user-friendly experience, enhancing data visualization and security 
+for end-users.
+•Developed Job Bridge, a platform connecting employees and employers, as part of an 
+eight-member team. Utilized React and Tailwind CSS for a responsive and intuitive 
+front-end, while leveraging Django for a robust and scalable back-end, ensuring a 
+seamless user experience and efficient matchmaking.
+Skills
+Advanced — NextJs  pyhton  React  Javascript, Intermediate — Java  django  C++, Beginner — Go
+Projects
+E-commerce
+Created a dynamic e-commerce website using Django and React, designed to simplify the shopping experience for 
+customers. Implemented features such as real-time inventory management, secure payment processing.
+Organizations
+Adama, EthiopiaAndalus
+Instructor
+Volunteered at Andalus Organization, teaching programming and other subjects for free. 
+Dedicated to empowering students with essential coding skills and knowledge
