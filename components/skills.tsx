@@ -1,37 +1,78 @@
-"use client"
+"use client";
 
-import { useState, useEffect } from "react"
-import { Card, CardContent } from "@/components/ui/card"
-import { AnimatedSection } from "@/components/animations"
+import { useState, useEffect } from "react";
+import { Card, CardContent } from "@/components/ui/card";
+import { AnimatedSection } from "@/components/animations";
 
 interface Skill {
-  name: string
-  percentage: number
-  icon: string
-  color: string
+  name: string;
+  percentage: number;
+  icon: string;
+  color: string;
 }
 
 export default function Skills() {
-  const [mounted, setMounted] = useState(false)
+  const [mounted, setMounted] = useState(false);
 
   // Skills data with custom colors
   const skills: Skill[] = [
-    { name: "ReactJs", percentage: 85, icon: "⚛️", color: "from-blue-500 to-cyan-400" },
-    { name: "Next.js", percentage: 85, icon: "▲", color: "from-gray-800 to-gray-600" },
-    { name: "Git", percentage: 70, icon: "🔄", color: "from-orange-600 to-red-500" },
-    { name: "JavaScript", percentage: 99, icon: "🟨", color: "from-yellow-400 to-yellow-600" },
-    { name: "Web Development", percentage: 95, icon: "🌐", color: "from-primary to-purple-600" },
-    { name: "Node.js", percentage: 60, icon: "🟢", color: "from-green-500 to-green-700" },
-    { name: "Express", percentage: 60, icon: "🚀", color: "from-gray-600 to-gray-800" },
-  ]
+    {
+      name: "ReactJs",
+      percentage: 85,
+      icon: "⚛️",
+      color: "from-blue-500 to-cyan-400",
+    },
+    {
+      name: "Next.js",
+      percentage: 85,
+      icon: "▲",
+      color: "from-gray-800 to-gray-600",
+    },
+    {
+      name: "Git",
+      percentage: 80,
+      icon: "🔄",
+      color: "from-orange-600 to-red-500",
+    },
+    {
+      name: "JavaScript",
+      percentage: 99,
+      icon: "🟨",
+      color: "from-yellow-400 to-yellow-600",
+    },
+    {
+      name: "Web Development",
+      percentage: 95,
+      icon: "🌐",
+      color: "from-primary to-purple-600",
+    },
+    {
+      name: "Node.js",
+      percentage: 80,
+      icon: "🟢",
+      color: "from-green-500 to-green-700",
+    },
+    {
+      name: "Express",
+      percentage: 80,
+      icon: "🚀",
+      color: "from-gray-600 to-gray-800",
+    },
+    {
+      name: "NestJS",
+      percentage: 80,
+      icon: "🦁",
+      color: "from-orange-600 to-red-500",
+    },
+  ];
 
   // Avoid hydration mismatch
   useEffect(() => {
-    setMounted(true)
-  }, [])
+    setMounted(true);
+  }, []);
 
   if (!mounted) {
-    return null
+    return null;
   }
 
   return (
@@ -43,7 +84,9 @@ export default function Skills() {
       <div className="container px-4 md:px-6">
         <AnimatedSection className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
           <div className="space-y-2">
-            <p className="text-sm md:text-base font-medium text-primary uppercase tracking-wider">What I Know</p>
+            <p className="text-sm md:text-base font-medium text-primary uppercase tracking-wider">
+              What I Know
+            </p>
             <h2 className="heading-lg">Skills & Expertise</h2>
             <div className="h-1 w-20 bg-gradient-to-r from-primary to-purple-600 rounded-full mx-auto"></div>
             <p className="text-muted-foreground md:text-lg font-light italic">
@@ -64,14 +107,18 @@ export default function Skills() {
                       </span>
                       <h3 className="font-semibold text-lg">{skill.name}</h3>
                     </div>
-                    <span className="font-bold text-xl">{skill.percentage}%</span>
+                    <span className="font-bold text-xl">
+                      {skill.percentage}%
+                    </span>
                   </div>
                   <div className="h-2.5 w-full bg-muted rounded-full overflow-hidden">
                     <div
                       className={`h-full bg-gradient-to-r ${skill.color} rounded-full transition-all duration-1000 ease-out shimmer`}
                       style={{
                         width: `0%`,
-                        animation: `progressAnimation 1.5s ease-out forwards ${index * 0.2}s`,
+                        animation: `progressAnimation 1.5s ease-out forwards ${
+                          index * 0.2
+                        }s`,
                       }}
                     />
                   </div>
@@ -84,14 +131,22 @@ export default function Skills() {
 
       <style jsx>{`
         @keyframes progressAnimation {
-          from { width: 0%; }
-          to { width: var(--percentage); }
+          from {
+            width: 0%;
+          }
+          to {
+            width: var(--percentage);
+          }
         }
         .bg-grid-pattern {
-          background-image: radial-gradient(circle, currentColor 1px, transparent 1px);
+          background-image: radial-gradient(
+            circle,
+            currentColor 1px,
+            transparent 1px
+          );
           background-size: 30px 30px;
         }
       `}</style>
     </section>
-  )
+  );
 }

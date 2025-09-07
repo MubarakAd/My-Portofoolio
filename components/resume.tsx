@@ -43,7 +43,7 @@ export default function Resume() {
     {
       position: "FullStack Web Developer",
       company: "Golden Age",
-      period: "Apr 2025 - Present",
+      period: "Apr 2025 - Sep 2025",
       description: "Developing a high-quality web app.",
     },
     {

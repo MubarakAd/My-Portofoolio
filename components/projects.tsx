@@ -20,7 +20,7 @@ export default function Projects() {
       description:
         "A comprehensive banking dashboard application for managing financial data. The dashboard includes real-time transaction tracking, account summaries, and performance metrics.",
       image: "/bankdash.png",
-      demoLink: "#",
+      demoLink: "https://astu-web-g2.netlify.app/",
       githubLink: "https://github.com/MubarakAd/a2sv-g5-project-phase-starter-project/tree/main/web/ASTU-web-group-1",
       technologies: ["React", "Node.js", "MongoDB", "Express", "Chart.js"],
     },
@@ -38,10 +38,26 @@ export default function Projects() {
       description:
         "An e-learning platform where instructors can publish courses and students can purchase and access educational content. Features a global network of learners earning recognized degrees from leading institutions.",
       image: "/impact-academy.png",
-      demoLink: "#",
+      demoLink: "https://impactacademy.et/",
       githubLink: "https://github.com/MubarakAd",
-      technologies: ["React", "TypeScript", "Tailwind CSS", "Node.js", "Express"],
+      technologies: ["Next.js","Nestjs","MongoDb" ,"TypeScript", "Tailwind CSS"],
     },
+    {
+      title:"Zumbara Shop",
+      description: "An e-commerce platform that offers a seamless shopping experience with features like product browsing, secure checkout, and order tracking.",
+      image: "/zumbarashop.png",
+      demoLink: "https://www.zumbarashop.com/",
+      githubLink: "https://github.com/MubarakAd/ZumbaraShop",
+      technologies: [ "Next.js","Nestjs", "PostgreSQL", "Tailwind CSS", ],
+    },
+    {
+      title:"Dental Pro",
+      description: "A comprehensive dental clinic management system that streamlines patient records, appointment scheduling, and billing processes.",
+      image: "/dentalpro.png",
+      demoLink: "https://v0-custom-ui-design-53n96o3lr-mubarakads-projects.vercel.app/",
+      githubLink: "https://github.com/MubarakAd/DentalPro",
+      technologies: [ "Next.js", "supabase", "Tailwind CSS", "React",],
+    }
   ]
 
   return (
