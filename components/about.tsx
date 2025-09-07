@@ -22,7 +22,7 @@ export default function About() {
           <div className="mx-auto max-w-[700px] space-y-6 text-center">
             <AnimatedText className="text-foreground/90 md:text-lg leading-relaxed" delay={100}>
               As a self-taught developer, I&apos;ve dedicated myself to mastering the art of web development. My journey
-              began over two and a half years ago, and since then, I&apos;ve been continuously expanding my knowledge
+              began over three and half years ago, and since then, I&apos;ve been continuously expanding my knowledge
               and skills in various technologies.
             </AnimatedText>
             <AnimatedText className="text-foreground/90 md:text-lg leading-relaxed" delay={300}>

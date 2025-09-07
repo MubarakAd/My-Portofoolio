@@ -34,8 +34,8 @@ export default function Testimonials() {
     {
       content:
         "Working with Mubarak was a pleasure. He's not only technically proficient but also brings creative solutions to complex problems. His work has significantly improved our user experience.",
-      author: "Sarah Johnson",
-      position: "Product Manager",
+      author: "Abel Mulugeta",
+      position: "Client",
     },
   ]
 
