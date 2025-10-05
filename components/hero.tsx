@@ -13,6 +13,7 @@ export default function Hero() {
     "Node.js Developer",
     "Express.js Developer",
     "Nest.js Developer",
+    "Ai Engineer",
   ]
 
   return (
@@ -47,7 +48,7 @@ export default function Hero() {
               delay={300}
             >
               Hi there! I am Mubarak, a passionate self-taught full-stack developer based in Ethiopia. I&apos;ve been
-              coding for over three years and half, continuously learning new technologies. I am always eager for new
+              coding for over five, continuously learning new technologies. I am always eager for new
               challenges and opportunities.
             </AnimatedText>
             <div className="flex flex-col gap-2 min-[400px]:flex-row pt-4">
