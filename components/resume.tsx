@@ -28,7 +28,7 @@ export default function Resume() {
     {
       degree: "Bachelor's Degree in Software Engineering",
       institution: "Adama Science and Technology University",
-      period: "Expected graduation: June 2026",
+      period: "Sep 2020 - Jun 2024",
     },
     {
       degree: "Data Structures and Algorithms",

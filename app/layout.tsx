@@ -22,10 +22,12 @@ export const metadata: Metadata = {
   title: "Mubarak Adem | Full Stack Developer",
   description:
     "Professional portfolio of Mubarak Adem, a passionate self-taught full-stack developer based in Ethiopia.",
+
   icons: {
     icon: '/profilepic.png',
   },
     
+
 }
 
 export default function RootLayout({
